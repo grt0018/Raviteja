@@ -1,0 +1,46 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=auto">
+	<style>
+		.bgtable{
+			background-image:url("bgtable.jpg");
+			background-repeat:no-repeat;
+			background-position:center;
+		}
+		.deposit{
+			padding:0px 0px;
+			border-radius:50px;
+		}
+		button:active{transform:translateY(10px); box-shadow:navy 0px 10px 18px 0px ;}
+	</style>
+</head>
+<body>
+	<form action="deposit add.html">
+	<div>
+	<table width=700px height=320 align="center" class="bgtable">
+	<caption><h1><u>DEPOSIT FORM</u></h1></caption>
+	<th colspan='2' style="font-family: Arial, Helvetica, sans-serif"><h2>SUPER BANK OF INDIA</h2>
+	<tr>
+		<td colspan='2' align="right">DATE :<input type="date" name="date" required></td>
+	</tr>
+	<tr>
+		<td colspan='2' align="right">ACCOUNT NUMBER :<input type="text" name="acc" value="9392 8736 629121" required></td>
+	</tr>
+	<tr>
+		<td width=210px>ACCOUNT HOLDER NAME :</td>
+		<td><input type="text" name="holder" value="DHANDA RAMIREDDY" required></td>
+	</tr>
+	<tr>
+		<td>RUPEES IN WORDS :</td>
+		<td><input type="text" name="words" value="THIRTY THOUSAND ONLY" required></td>
+	</tr>
+	<tr>
+		<td colspan='2' align="right">TOTAL AMOUNT :<input type="text" name="amount" value="30000" required></td>
+	</tr>
+	</table></div>
+	<div>
+		<center><button class="deposit" type="submit"><img src="deposit submit.jpg" style="border-radius:50px" width=100px height=100px></button></center>
+	</div>
+	</form>
+</body>
+</html>
